@@ -1,4 +1,4 @@
-﻿// Абстрактный класс "Транспорт"
+﻿
 abstract class Transport
 {
     public abstract double Speed { get; }
@@ -8,7 +8,7 @@ abstract class Transport
     public abstract string GetTransportInfo();
 }
 
-// Абстрактный класс "Автомобиль"
+
 abstract class Car : Transport
 {
     public override string GetTransportInfo()
@@ -17,7 +17,7 @@ abstract class Car : Transport
     }
 }
 
-// Абстрактный класс "Самолет"
+
 abstract class Airplane : Transport
 {
     public override string GetTransportInfo()
