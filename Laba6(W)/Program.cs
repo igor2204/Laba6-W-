@@ -26,7 +26,7 @@ abstract class Airplane : Transport
     }
 }
 
-// Абстрактный класс "Корабль"
+
 abstract class Ship : Transport
 {
     public override string GetTransportInfo()
@@ -35,7 +35,7 @@ abstract class Ship : Transport
     }
 }
 
-// Класс, унаследованный от "Автомобиль"
+
 class Sedan : Car
 {
     public override double Speed => 120;
@@ -43,7 +43,7 @@ class Sedan : Car
     public override double Range => 600;
 }
 
-// Класс, унаследованный от "Самолет"
+
 class Boeing747 : Airplane
 {
     public override double Speed => 900;
@@ -51,7 +51,7 @@ class Boeing747 : Airplane
     public override double Range => 13600;
 }
 
-// Класс, унаследованный от "Корабль"
+
 class CargoShip : Ship
 {
     public override double Speed => 25;
